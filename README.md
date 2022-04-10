@@ -1,12 +1,12 @@
 # CityWeather
-> Display temperatures for a given city in a chronological graph from an api endpoint.  
+> Display temperatures for a given city in a chronological graph from an API endpoint.  
 > Live expo demo [_here_](https://expo.dev/@sjaakvanlenten/weatherApp).
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
 * [Screenshots](#screenshots)
 * [Architecture](#Architecture)
-* [User Story Estimates](#user-story-estimates)
+* [User Story Time Estimates](#user-story-time-estimates)
 
 ## Technologies Used
 - React Native Expo - version 44.0
@@ -53,7 +53,7 @@ This is where also reusable type definitions are written and the unit tests for 
 
 
 
-## User Story Estimates
+## User Story Time Estimates
 The total estimated time to complete the user stories is roughly 6 hours.
 
 - As a User, I want to see a home screen with all the cities that are available on the API. &emsp;**60 minutes**
