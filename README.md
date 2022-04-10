@@ -22,7 +22,7 @@
 </p>
 
 ## Architecture
-For the overall folder structure I chose to keep my compononents, screens, contexts and utility functions in their own seperate folders. I use an index file in the src folder
+For the overall folder structure I chose to keep my components, screens, contexts and utility functions in their own separate folders. I use an index file in the src folder
 as the entry point for the app. The app component from my index file gets imported in the originial entry App.tsx file and exported from there like so.
 The entire app gets wrapped inside an app-bootstrap component where it keeps showing the splash screen until all fonts are loaded and i18n translation is initialized.
 
@@ -35,9 +35,8 @@ Users can go from the home screen to the temperature details screen of a particu
 entry index file of the app where it is the final wrapped child component.
 
 On the home screen the API gets called for the first time the component mounts. The received data gets transformed in a more usable format right away and from there saved in the async storage of the device.
-For the context i made an AsyncStorage component inside the contexts directory wich defines the functions for getting and setting data from/in the async storage. The context provider is exported from there and wraps 
-the app inside the entry index file of the app. The context itself is exported as a hook to be imported from the components that use it. Inside the components the individual state and getter/setter functions
-can be destructured from the hook call.
+For the context I made an AsyncStorage component inside the contexts directory wich defines the functions for getting and setting data from/in the async storage. The context provider is exported from there and wraps 
+the app inside the entry index file of the app. The context itself is exported as a hook to be imported from the components that use it. Inside the components the individual state and getter/setter functions can be destructured from the hook call.
 
 The user can easily grab new data by pulling the list or clicking the refresh button on the top of the home screen. If there is no internet connection or errors occur during fetching, the latest data from async storage will automatically be used by the app. The user will be notified that they need
 to check their internet connection in such a case.
