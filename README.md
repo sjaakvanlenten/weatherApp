@@ -49,25 +49,3 @@ the uri again.
 
 Utlity functions like sorting and transforming data are kept in their own respective files inside the utils folder. 
 This is where also reusable type definitions are written and the unit tests for the individual utility functions.
-
-
-
-## User Story Time Estimates
-The total estimated time to complete the user stories is roughly 6 hours.
-
-- As a User, I want to see a home screen with all the cities that are available on the API. &emsp;**60 minutes**
-- As a User, I want the cities be sorted alphabetically: &emsp;**10 minutes**
-- As a User, I want to be able to refresh the data that is on the home screen. &emsp;**10 minutes**
-- As a User, I want to be able to click on a city and see the weather results on a separate screen. &emsp;**30 minutes**
-- As a User, I want all the temperatures to be displayed in Celsius. &emsp;**15 minutes**
-- As a User, I want the temperatures to be displayed in chronological order. &emsp;**15 minutes**
-- As a Reviewer, I want a subject in the README.md explaining the chosen architecture. &emsp;**30 minutes**
-- As a Reviewer, I want the application to be offline-first. &emsp;**90 minutes**
-- As a Reviewer, I want the application only to be optimized for mobile devices and in Portrait mode. &emsp;**90 minutes**
-
-
-
-
-
-
-
