@@ -6,7 +6,6 @@
 * [Technologies Used](#technologies-used)
 * [Screenshots](#screenshots)
 * [Architecture](#Architecture)
-* [User Story Time Estimates](#user-story-time-estimates)
 
 ## Technologies Used
 - React Native Expo - version 44.0
